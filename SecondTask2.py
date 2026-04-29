@@ -29,4 +29,10 @@ Address = input("Enter Address:")
 
 sbi = {}
 
-sbi[name] = {"Name":Name,"Lastname":Lastname,"Age":Age,"Adharcard_No":Adharcard_No,"P"}
+sbi[Name] = {"Name":Name,"Lastname":Lastname,"Age":Age,"Adharcard_No":Adharcard_No,"Profession":Profession,
+            "Opening_Balance":Opening_Balance,"PANcard_No":PANcard_No,"Address":Address}
+
+print(sbi)
+
+print("Accound Create Successfully")
+print(sbi[Name])
